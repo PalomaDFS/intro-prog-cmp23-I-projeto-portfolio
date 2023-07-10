@@ -4,7 +4,6 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  max-width: 100%;
 }
 
 body{
@@ -26,13 +25,14 @@ li {
   padding-top: 32px;
   padding-bottom: 32px;
   height:  60px;
-  background-color: #4037f7;
+  background-color: #aaa6f1;
 } 
 
 .header-menu nav{
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .lista-menu {
@@ -51,6 +51,7 @@ li {
 .foto-perfil{
   height: 300px;
   width: 300px;
+  border-radius: flex;
 }
 
 .principal{
@@ -78,22 +79,23 @@ li {
 
 .nome-completo{
   font-size: 36px;
-  color: #130d8f;
+  color: #2015f1;
   font-weight: 700;
   height: 45px;
 }
 
 .profissao{
-  color: #2d19e4;
+  color: #a39bec;
   height: 80px;
 } 
 
 .texto-sobre{
-  font-size: 18px;
-    scroll-margin-top: 0px;
-    line-height: 20px;
-    color: #1a1a53;
-    font-weight: 600;
+    font-size: 18px;
+    scroll-margin-top: 10px;
+    line-height: 30px;
+    color: #3d3dc7;
+    font-weight: 300;
+    align-items: center;
 } 
 
 .article-lista{
@@ -104,7 +106,7 @@ li {
 }
 
 .topico-principal{
-  color: #5487f7;
+  color: #7ca4fa;
 } 
 
 .lista-item{
@@ -114,19 +116,19 @@ li {
 .lista-titulo{
   margin-bottom: 5px;
   font-size: 22px;
-  color: #1a1a53;
+  color: #6f6f99;
   font-weight: 700;
 }
 
 .lista-local{
   font-size: 18px;
-  color: #2F80ED;
+  color: #2362b4;
 }
  .lista-descricao {
   font-size: 18px;
   margin-top: 5px;
   line-height: 20px;
-  color: #828282;
+  color: #613ffc;
   font-weight: 300;
 } 
 
@@ -141,7 +143,7 @@ li {
 }
 
 .section-titulo-tamanho{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .section-titulo-portfolio{
@@ -149,7 +151,7 @@ li {
   }
 
 .titulo-lista-portfolio{
-  color: #828282;
+  color: #7161ff;
   padding: 32px
  }
 
